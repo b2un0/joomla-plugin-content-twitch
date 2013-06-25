@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content" method="upgrade">
+    <name>Content - twitch.tv</name>
+    <author>Branko Wilhelm</author>
+    <creationDate>Jun 2013</creationDate>
+    <copyright>Copyright (C) 2013 Branko Wilhelm. All rights reserved.</copyright>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <authorEmail>branko.wilhelm@gmail.com</authorEmail>
+    <authorUrl>www.z-index.net</authorUrl>
+    <version>@REVISION@</version>
+    <description>Show Twitch Preview</description>
+    <files>
+        <filename plugin="twitch">twitch.php</filename>
+        <filename>index.html</filename>
+    </files>
+    <media folder="media" destination="twitch">
+		<filename>twitch.js</filename>
+        <filename>index.html</filename>
+    </media>
+</extension>
