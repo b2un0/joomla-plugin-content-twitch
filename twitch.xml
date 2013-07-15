@@ -19,5 +19,5 @@
     </media>
     <updateservers>
 		<server type="extension" priority="1" name="Twitch.tv Content Plugin">http://www.z-index.net/en/joomla-plugins/twitch/updatestream.xml</server>
-	</updateservers>	
+	</updateservers>
 </extension>
