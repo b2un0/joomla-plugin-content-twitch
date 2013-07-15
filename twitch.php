@@ -25,7 +25,7 @@ class plgContentTwitch extends JPlugin {
 			
 			foreach ($matches as $match) {
 				$users[] = $match[1] = trim($match[1]);
-				$replace = '<div class="twitch" id="twitch_' . $match[1] . '">' . JHtml::_('link', 'http://www.twitch.tv/' . $match[1], $match[1], array('target' => '_blank')) . ' Offline</div>';
+				$replace = '<span class="twitch" id="twitch_' . $match[1] . '">' . JHtml::_('link', 'http://www.twitch.tv/' . $match[1], $match[1], array('target' => '_blank')) . ' Offline</span>';
 				$row->text = JString::str_ireplace($match[0], $replace, $row->text);
 			}
 			
