@@ -2,7 +2,7 @@
 <extension version="2.5" type="plugin" group="content" method="upgrade">
     <name>Content - twitch.tv</name>
     <author>Branko Wilhelm</author>
-    <creationDate>Jun 2013</creationDate>
+    <creationDate>Jul 2013</creationDate>
     <copyright>Copyright (C) 2013 Branko Wilhelm. All rights reserved.</copyright>
     <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
     <authorEmail>branko.wilhelm@gmail.com</authorEmail>
