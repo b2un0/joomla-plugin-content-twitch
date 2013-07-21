@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<project name="plg_twitch" basedir="." default="build">
+<project name="plg_content_twitch" basedir="." default="build">
 	
 	<exec command="git rev-list --count HEAD" dir="." outputProperty="revision" />
 	
