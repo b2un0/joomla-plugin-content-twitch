@@ -8,14 +8,12 @@ window.twitch.init = function (users) {
 window.twitch.result = function (items) {
     for (var i = 0; i < items.length; i++) {
         var target = document.getElementById('twitch_' + items[i].channel.login);
+        var size = target.getAttribute('data-size');
+
+        console.log(items[i]);
 
         var img = document.createElement('img');
-        //img.src = items[i].channel.screen_cap_url_huge; // 630x473
-        //img.src = items[i].channel.screen_cap_url_large; // 320x240
-        img.src = items[i].channel.screen_cap_url_medium; // 150x113
-        //img.src = items[i].channel.screen_cap_url_small; // 70x53
-        img.width = 150;
-        img.height = 113;
+        img.src = items[i].channel['screen_cap_url_' + size];
 
         var link = document.createElement('a');
         link.href = items[i].channel.channel_url;

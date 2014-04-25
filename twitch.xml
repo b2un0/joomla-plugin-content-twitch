@@ -8,7 +8,7 @@
     <authorEmail>branko.wilhelm@gmail.com</authorEmail>
     <authorUrl>www.z-index.net</authorUrl>
     <version>@REVISION@</version>
-    <description>Show Twitch.tv Channel Preview Image and Online/Offline status</description>
+    <description>twitch.tv channel preview image and online/offline status. Usage in content {twitch channel_name image_size} (image_size is optional and can only be huge. large, medium or small)</description>
     <files>
         <filename plugin="twitch">twitch.php</filename>
     </files>
@@ -18,4 +18,16 @@
     <media folder="media" destination="twitch">
         <filename>twitch.js</filename>
     </media>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="size" type="list" default="medium" label="Default size">
+                    <option value="huge">huge (630x473)</option>
+                    <option value="large">large (320x240)</option>
+                    <option value="medium">medium (150x113)</option>
+                    <option value="small">small (70x53)</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
 </extension>
