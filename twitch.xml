@@ -8,7 +8,7 @@
     <authorEmail>branko.wilhelm@gmail.com</authorEmail>
     <authorUrl>www.z-index.net</authorUrl>
     <version>@REVISION@</version>
-    <description>twitch.tv channel preview image and online/offline status. Usage in content {twitch channel_name image_size} (image_size is optional and can only be huge. large, medium or small)</description>
+    <description>twitch.tv channel preview image and online/offline status. Usage in content {twitch channel_name image_size} (image_size is optional and can only be huge, large, medium or small)</description>
     <files>
         <filename plugin="twitch">twitch.php</filename>
     </files>
