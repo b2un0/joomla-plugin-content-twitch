@@ -13,7 +13,7 @@
         <filename plugin="twitch">twitch.php</filename>
     </files>
     <updateservers>
-        <server type="collection" priority="1" name="z-index development">http://www.z-index.net/en/extensions.xml</server>
+        <server type="extension" priority="1" name="Content - twitch.tv">https://raw.githubusercontent.com/z-index-net/joomla-plugin-content-twitch/master/updatestream.xml</server>
     </updateservers>
     <media folder="media" destination="twitch">
         <filename>twitch.js</filename>
