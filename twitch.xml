@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="2.5" type="plugin" group="content" method="upgrade">
+<extension version="3.0" type="plugin" group="content" method="upgrade">
     <name>Content - twitch.tv</name>
     <author>Branko Wilhelm</author>
     <creationDate>Jun 2013</creationDate>
